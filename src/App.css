@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+.row {
+  display: flex;
+  border: 1px solid red;
+  height: 100px;
+  box-sizing: border-box;
+}
+.square {
+  box-sizing: content-box;
+  border: 1px solid red;
+  width: 100px;
+}
+h1 {
+  text-align: center;
+}
+.restart {
+  display: block;
+  margin: auto;
+}
